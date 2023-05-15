@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:"Rubik", monospace ,sans-serif,fantasy;
+}
+
+a{
+	
+	text-decoration: none;
+	color: #111;
+	transition: all 0.5s ease;
+}
+
+a:hover{
+	
+	color: #ddd;
+}
+
+img{
+	width: 100%;
+}
+
+section{
+	
+	width: 100%;
+	min-height: 100vh;
+}
+
+.section-padding{
+	
+	padding:120px 0px;
+}
+
+
+.navbar{
+	
+	padding: 30px;
+	transition: all 0.5s ease;
+}
+
+.navbar.sticky{
+	
+	padding:10px;
+	background-color: #fff;
+}
+
+#home{
+
+
+	background-image:url(../img/home.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#home h1{
+	
+	font-size: 3em;
+}
+
+.navbar-brand{
+	
+	font-size: 2em;	
+}
+
+.navbar.sticky .navbar-brand{
+	
+	color:#bb0573;
+}
+.btn-primary{
+	
+	background-color: #111;
+	border:2px solid #111;
+	border-radius: 0;
+	transition: all 0.5s ease;
+}
+
+.btn-primary:hover{
+	
+	letter-spacing: 10px;
+	background-color: #111 !important;
+	border:2px solid #111 !important;
+}
+
+
+/*---services---*/
+.line{
+	
+	width:10%;
+	height: 2px;
+	background-color: #ddd;
+}
+
+
+.service i{
+	
+	font-size: 2em;
+	vertical-align: middle;
+	color:#bb0573;
+}
+
+/*----Team-------*/
+
+.team{
+	
+	position: relative;
+	
+}
+
+.team .content{
+	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	background-color:#111111;
+	color: #fff;
+	opacity: 0.6;
+}
+
+.team .content-next{
+	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px;
+	background-color:#ffffff;
+	color: #111;
+	opacity: 0.6;
+}
+
+.footer-bottom{
+	
+	border-top: 2px solid #ddd;
+	margin: 30px
+}
+
+.testi img{
+	
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+}
+
+@media screen and (max-width:600px){
+	
+	#home h1{
+		
+		font-size: 1.5em;
+	}
+}
